@@ -21,13 +21,6 @@ proxies:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: ss
-  server: 103.136.150.119
-  port: 30222
-  cipher: aes-256-gcm
-  password: 72553320ae6bcc8f
-  udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vless
   server: 23.249.18.144
   port: 8581
@@ -41,7 +34,39 @@ proxies:
     path: /channels/act?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  type: vmess
+  server: 47.76.44.32
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 93ucrn4i0PffUAbk.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  type: vmess
+  server: 47.242.79.198
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ejomsxptp19apygl.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ejomsxptp19apygl.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   type: vless
   server: 104.16.60.10
   port: 443
@@ -55,18 +80,6 @@ proxies:
     path: /api/v2/e2fe4e52a165854d/stream
     headers:
       Host: hk1.69lover.my
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
