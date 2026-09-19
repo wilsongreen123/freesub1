@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 195.85.23.217
+  server: 195.85.23.45
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -20,32 +20,32 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 172.67.203.158
+  server: 195.85.23.47
   port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+      Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 195.85.23.29
   port: 443
-  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /vl/zXLTmz3hE3szn64f?ed=2560
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
