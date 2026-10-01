@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
   type: vless
-  server: 43.174.195.1
+  server: 43.174.192.1
   port: 443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
